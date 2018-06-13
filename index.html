@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Información sobre el producto</title>
+</head>
+
+<body>
+    <h3>Información sobre el producto</h3>
+
+    <form action="google.com">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="nombre">Nombre</label> <br/>
+            <input type="text" name="Nombre" id="nombre" value=""/>
+            <br/>
+            <br/>
+
+            <label for="descripcion">Descripción</label> <br/>
+            <textarea name="descripcion" id="descripcion"></textarea>
+            <br/>
+            <br/>
+
+            Foto <input type="file" name="foto" />
+            <br/>
+            <br/>
+
+            <input name="contador" type="checkbox" value=""/>Añadir contador de visitas
+
+        </fieldset>
+
+
+        <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="precio">Precio</label>
+                <input type="text" id="precio" name="precio"/>&euro;
+                
+
+                <label for="impuestos">Impuestos</label> 
+                <select id="impuestos" name="impuestos">
+                        <option value="4">4%</option>
+                        <option value="7">7%</option>
+                        <option value="16">16%</option>
+                        <option value="25">25%</option>
+                </select>
+                <br/>
+                <br/>
+
+                <label>Promoción</label> <br/>
+                <input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno <br/>
+                <input type="radio" name="promocion" value="transportes" /> Transporte gratuito <br/>
+                <input type="radio" name="promocion" value="descuento" /> Descuento 5%
+        
+        </fieldset>
+ 
+    </form>
+</body>
+</html>
